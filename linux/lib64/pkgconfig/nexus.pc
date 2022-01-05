@@ -1,0 +1,11 @@
+#
+prefix=/home/anders/install
+exec_prefix=${prefix}
+libdir=/home/anders/install/lib64
+includedir=/home/anders/install/include
+
+Name: nexus
+Description:Libraries and utilities for using NeXus format data files
+Version:4.4.2
+Libs:	-L${libdir} -lNeXus
+Cflags:	-I${includedir}/nexus -I${includedir}
