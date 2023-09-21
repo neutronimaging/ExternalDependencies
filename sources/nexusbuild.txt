@@ -1,2 +1,2 @@
-cmake ../Downloads/code-4.4.2 -DENABLE_CXX=ON -DENABLE_HDF5=1
+cmake ../code-4.4.2 -DENABLE_CXX=ON -DENABLE_HDF5=1 -DCMAKE_BUILD_TYPE=Release
 cmake --build . --target install
